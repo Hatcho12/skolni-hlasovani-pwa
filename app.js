@@ -1,5 +1,5 @@
 // ZDE vlož adresu svého Apps Script backendu, zakončenou ?path=
-const API_BASE = 'TVŮJ_APPS_SCRIPT_URL/exec?path=';
+const API_BASE = 'https://script.google.com/macros/s/AKfycbwo9Y5e5xC3hajH-o9svrGWTijG-y7vMi1wbqAGTTcHHxYR7Qe4d1F__RyJ1vDbIidg/exec';
 
 const els = {
   pwaStatus: document.getElementById('pwaStatus'),
@@ -124,3 +124,4 @@ if (state.token) {
   els.voteCard.hidden = false;
   loadPresenters();
 }
+
